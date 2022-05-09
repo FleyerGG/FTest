@@ -1,0 +1,1343 @@
+MSG:
+  done: "Вы успешно получили карту"
+test: "PlayerMapsGui.Picture1(uuid)"
+
+GUI:
+  main:
+    nameGui: "Выбор размера картинок" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      #- 10
+      #- 11
+      #- 12
+      #- 13
+      #- 14
+      #- 15
+      #- 16
+      #- 19
+      #- 20
+      #- 21
+      #- 22
+      #- 23
+      #- 24
+      #- 25
+      #- 28
+      #- 29
+      #- 30
+      - 31
+      #- 32
+      #- 33
+      #- 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    list:
+      picture1: #Любой айди
+        enable: true #Если значение true при нажатии вас перекинет в меню Картинок "picture1", а если false то ничего не произойдет.
+        name: "Picture 1x1" #название предмета
+        slot: 10 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture2: #Любой айди
+        enable: true #Если значение true при нажатии вас перекинет в меню Картинок "picture1", а если false то ничего не произойдет.
+        name: "Picture 2x2" #название предмета
+        slot: 11 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture3:
+        name: "Picture 3x3" #название предмета
+        slot: 12 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture4:
+        name: "Picture 4x4" #название предмета
+        slot: 13 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+
+      picture5:
+        name: "Picture 5x5" #название предмета
+        slot: 14 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture6:
+        name: "Picture 6x6" #название предмета
+        slot: 15 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture7:
+        name: "Picture 7x7" #название предмета
+        slot: 16 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture8:
+        name: "Picture 8x8" #название предмета
+        slot: 19 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture9:
+        name: "Picture 9x9" #название предмета
+        slot: 20 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture10:
+        name: "Picture 10x10" #название предмета
+        slot: 21 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture11:
+        name: "Picture 11x11" #название предмета
+        slot: 22 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture12:
+        name: "Picture 12x12" #название предмета
+        slot: 23 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture13:
+        name: "Picture 13x13" #название предмета
+        slot: 24 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture14:
+        name: "Picture 14x14" #название предмета
+        slot: 25 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture15:
+        name: "Picture 15x15" #название предмета
+        slot: 28 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture16:
+        name: "Picture 16x16" #название предмета
+        slot: 29 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture17:
+        name: "Picture 17x17" #название предмета
+        slot: 30 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture18:
+        name: "Picture 18x18" #название предмета
+        slot: 32 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture19:
+        name: "Picture 19x19" #название предмета
+        slot: 33 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+      picture20:
+        name: "Picture 20x20" #название предмета
+        slot: 34 # слот в котором он должен находиться
+        material: PAPER #Материал который будет отображаться (Все матереалы сомтреть тут https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ), так же если поставить AIR то отсек будет пустным
+        lore: #описание предмета
+          - "1"
+          - "2"
+          - "3"
+
+
+  picture1:
+    donaMsg: "Вы успешно получили картинку 1х1"
+    nameGui: "Картинки 1х1" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&71"
+        - "2"
+        - "3"
+  picture2:
+    donaMsg: "Вы успешно получили картинку 1х1"
+    nameGui: "Картинки 1х1" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&71"
+        - "2"
+        - "3"
+  picture3:
+    donaMsg: "Вы успешно получили картинку 3х3"
+    nameGui: "Картинки 3х3" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+
+  picture4:
+    donaMsg: "Вы успешно получили картинку 4х4"
+    nameGui: "Картинки 4х4" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture5:
+    donaMsg: "Вы успешно получили картинку 5х5"
+    nameGui: "Картинки 5х5" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture6:
+    donaMsg: "Вы успешно получили картинку 6х6"
+    nameGui: "Картинки 6х6" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture7:
+    donaMsg: "Вы успешно получили картинку 7х7"
+    nameGui: "Картинки 7х7" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture8:
+    donaMsg: "Вы успешно получили картинку 8х8"
+    nameGui: "Картинки 8х8" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture9:
+    donaMsg: "Вы успешно получили картинку 9х9"
+    nameGui: "Картинки 9х9" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture10:
+    donaMsg: "Вы успешно получили картинку 10х10"
+    nameGui: "Картинки 10х10" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture11:
+    donaMsg: "Вы успешно получили картинку 11х11"
+    nameGui: "Картинки 11х11" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture12:
+    donaMsg: "Вы успешно получили картинку 12х12"
+    nameGui: "Картинки 12х12" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture13:
+    donaMsg: "Вы успешно получили картинку 13х13"
+    nameGui: "Картинки 13х13" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture14:
+    donaMsg: "Вы успешно получили картинку 14х14"
+    nameGui: "Картинки 14х14" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture15:
+    donaMsg: "Вы успешно получили картинку 15х15"
+    nameGui: "Картинки 15х15" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture16:
+    donaMsg: "Вы успешно получили картинку 16х16"
+    nameGui: "Картинки 16х16" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture17:
+    donaMsg: "Вы успешно получили картинку 17х17"
+    nameGui: "Картинки 17х17" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture18:
+    donaMsg: "Вы успешно получили картинку 18х18"
+    nameGui: "Картинки 18х18" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture19:
+    donaMsg: "Вы успешно получили картинку 19х19"
+    nameGui: "Картинки 19х19" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+  picture20:
+    donaMsg: "Вы успешно получили картинку 20х20"
+    nameGui: "Картинки 20х20" #Название Главного меню
+    size: 5 #Размер Главного меню
+    fillSlots: #Слоты которые будут пустыми
+      - 10
+      - 11
+      - 12
+      #- 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+    fillSlotsMaterial: GRAY_STAINED_GLASS_PANE #Заполнитель
+    nextPage:
+      name: "&aСледующая страница"
+      slot: 43
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+    display:
+      name: "Картинка"
+      material: FILLED_MAP
+      lore:
+        - "&7sfdgxfhgc1"
+        - "2"
+        - "3"
+
+
+
+
+
+pages:
+  nextPage:
+    name: "&aСледующая страница"
+    slot: 43
+    lore:
+      - ""
+      - "&7Нажмите для перехода"
+      - "&7на &e&n%page%&7 страницу"
+    backPage:
+      name: "&aПредыдущая страница"
+      slot: 41
+      lore:
+        - ""
+        - "&7Нажмите для перехода"
+        - "&7на &e&n%page%&7 страницу"
+
+
+getMaterials:
+
+  picture#1:
+    name: "Test1"
+    material: "ITEM_FRAME"
+    amount: 1
+    lore:
+      - "1"
+      - "2"
+
+  picture#2:
+    name: "Test2"
+    material: "ITEM_FRAME"
+    amount: 2
+    lore:
+      - "1"
+      - "2"
+
+  picture#3:
+    name: "Test3"
+    material: "ITEM_FRAME"
+    amount: 3
+    lore:
+      - "1"
+      - "2"
+
+  picture#4:
+    name: "Test4"
+    material: "ITEM_FRAME"
+    amount: 4
+    lore:
+      - "1"
+      - "2"
+
+  picture#5:
+    name: "Test5"
+    material: "ITEM_FRAME"
+    amount: 5
+    lore:
+      - "1"
+      - "2"
+
+  picture#6:
+    name: "Test6"
+    material: "ITEM_FRAME"
+    amount: 6
+    lore:
+      - "1"
+      - "2"
+
+  picture#7:
+    name: "Test7"
+    material: "ITEM_FRAME"
+    amount: 7
+    lore:
+      - "1"
+      - "2"
+
+  picture#8:
+    name: "Test8"
+    material: "ITEM_FRAME"
+    amount: 8
+    lore:
+      - "1"
+      - "2"
+
+  picture#9:
+    name: "Test9"
+    material: "ITEM_FRAME"
+    amount: 9
+    lore:
+      - "1"
+      - "2"
+
+  picture#10:
+    name: "Test10"
+    material: "ITEM_FRAME"
+    amount: 10
+    lore:
+      - "1"
+      - "2"
+
+  picture#11:
+    name: "Test11"
+    material: "ITEM_FRAME"
+    amount: 11
+    lore:
+      - "1"
+      - "2"
+
+  picture#12:
+    name: "Test12"
+    material: "ITEM_FRAME"
+    amount: 12
+    lore:
+      - "1"
+      - "2"
+
+  picture#13:
+    name: "Test13"
+    material: "ITEM_FRAME"
+    amount: 13
+    lore:
+      - "1"
+      - "2"
+
+  picture#14:
+    name: "Test14"
+    material: "ITEM_FRAME"
+    amount: 14
+    lore:
+      - "1"
+      - "2"
+
+  picture#15:
+    name: "Test15"
+    material: "ITEM_FRAME"
+    amount: 15
+    lore:
+      - "1"
+      - "2"
+
+  picture#16:
+    name: "Test16"
+    material: "ITEM_FRAME"
+    amount: 16
+    lore:
+      - "1"
+      - "2"
+
+  picture#17:
+    name: "Test17"
+    material: "ITEM_FRAME"
+    amount: 17
+    lore:
+      - "1"
+      - "2"
+
+  picture#18:
+    name: "Test18"
+    material: "ITEM_FRAME"
+    amount: 18
+    lore:
+      - "1"
+      - "2"
+
+  picture#19:
+    name: "Test19"
+    material: "ITEM_FRAME"
+    amount: 19
+    lore:
+      - "1"
+      - "2"
+
+  picture#20:
+    name: "Test20"
+    material: "ITEM_FRAME"
+    amount: 20
+    lore:
+      - "1"
+      - "2"
+
